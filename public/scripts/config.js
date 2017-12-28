@@ -4,7 +4,7 @@
         .config(function($routeProvider){
             $routeProvider
             .when("/home", {
-                template:"<component></component>"
+                template:"<weather-component></weather-component>"
             })
             .otherwise({ redirectTo: "/home" });
         })
