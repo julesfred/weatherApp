@@ -1,8 +1,11 @@
 (function(){
     var weatherComponent={
         templateUrl: "weather.html",
-        controller: function(WeatherService, $http){
+        controller: function(){
             var vm = this;
+            vm.enterLocation = function(city, state){
+                console.log(city, state);
+            }
         }
     }
 
