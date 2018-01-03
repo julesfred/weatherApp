@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/julesfred/weatherApp/issues"
   },
-  "homepage": "https://github.com/julesfred/weatherApp#readme"
+  "homepage": "https://github.com/julesfred/weatherApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "node-pg-connection-pool": "^0.9.1",
+    "pg": "^7.4.0"
+  }
 }

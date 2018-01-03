@@ -3,7 +3,7 @@
         .module("app")
         .config(function($routeProvider){
             $routeProvider
-            .when("/home", {
+            .when("/weather", {
                 template:"<weather-component></weather-component>"
             })
             .otherwise({ redirectTo: "/home" });
